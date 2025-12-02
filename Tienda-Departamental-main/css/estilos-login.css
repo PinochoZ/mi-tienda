@@ -1,0 +1,92 @@
+/* --- ESTILO  PARA LOGIN --- */
+
+body {
+    background: #f6f6f6;
+    font-family: "Inter", sans-serif;
+}
+
+.login-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+/* Tarjeta */
+.login-card {
+    border: none;
+    border-radius: 18px;
+    padding: 0;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    background: #ffffff;
+}
+
+/* Título */
+.login-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.login-subtitle {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Inputs minimalistas */
+.form-control {
+    border: 1.6px solid #ddd;
+    border-radius: 10px;
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+}
+
+.form-control:focus {
+    border-color: #4c8df5;
+    box-shadow: 0 0 6px rgba(76, 141, 245, 0.3);
+}
+
+/* Botón login */
+.btn-login {
+    background: #4c8df5;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 12px;
+    border: none;
+    transition: 0.25s ease;
+}
+
+.btn-login:hover {
+    background: #2f6bdc;
+}
+
+/* Icono del ojo */
+.input-group-text {
+    border: 1.6px solid #ddd;
+    border-left: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+/* Enlace */
+.login-link {
+    color: #4c8df5 !important;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
+
+/* Errores */
+#errorBox {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Card general */
+.card {
+    border-radius: 18px;
+}

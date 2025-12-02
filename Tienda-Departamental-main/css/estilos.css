@@ -1,0 +1,138 @@
+body {
+    background: #f2f2f2;
+}
+.table-dark th {
+    color: #ffffff;
+}
+.columna-activa {
+    background-color: #cce2ff !important;
+    transition: background 0.3s;
+}
+.fila-recomendada {
+    animation: parpadeo 1s ease forwards;
+}
+
+@keyframes parpadeo {
+    0% { background-color: #ffffff; }
+    100% { background-color: #e7f1ff; }
+}
+.fila-demo:hover {
+    background-color: #f0f7ff !important;
+    transition: 0.3s ease;
+}
+.ratio iframe:hover, audio:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+.accordion-body {
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-5px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.accordion-button:not(.collapsed) {
+    background-color: #ffeeba !important;
+    color: #000 !important;
+    box-shadow: none;
+}
+.accordion-button {
+    transition: background-color 0.3s, padding-left 0.2s;
+}
+
+.accordion-button:hover {
+    background-color: #efefef;
+    padding-left: 18px;
+}
+/* =============================
+   🎨 Estilos exclusivos de index
+   ============================= */
+
+/* Fondo suave solo para la página principal */
+.index-hero {
+    background: linear-gradient(135deg, #ff7a00, #ffbb66);
+    padding: 60px 30px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 50px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Título principal */
+.index-hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+/* Subtítulo */
+.index-hero p {
+    font-size: 1.2rem;
+    opacity: 0.95;
+}
+
+/* Tarjetas de ofertas */
+.oferta-card {
+    border-radius: 15px;
+    overflow: hidden;
+    border: none;
+    transition: 0.25s ease-in-out;
+}
+
+.oferta-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 12px 25px rgba(0,0,0,0.2);
+}
+
+/* Título "Ofertas del día" */
+.titulo-ofertas {
+    font-weight: 700;
+    color: #ff7a00;
+    margin-top: 40px;
+}
+
+/* Botones dentro de index */
+.btn-index {
+    background-color: white;
+    color: #ff7a00;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: 600;
+    border: none;
+}
+
+.btn-index:hover {
+    background-color: #ffe7d2;
+}
+
+/* Imagenes responsivas pero suaves */
+.oferta-card img {
+    height: 220px;
+    object-fit: cover;
+    border-bottom: 3px solid #ff7a00;
+}
+
+/* Sección de texto central */
+.index-texto {
+    margin-top: 40px;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+}
+  body {
+            background: #f5f5f5;
+        }
+        .perfil-card {
+            max-width: 480px;
+            margin: 70px auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+        }
+        .icon-perfil {
+            font-size: 70px;
+            color: #0d6efd;
+        }

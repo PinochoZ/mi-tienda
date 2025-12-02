@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Departamental - Inicio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">🏢 Mi Gran Tienda</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Departamentos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="comparativa.html">⚡ Comparar Modelos</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            
+                            <li><a class="dropdown-item" href="catalogo.html">Electrónica</a></li>
+                            <li><a class="dropdown-item" href="catalogo.html">Ropa</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="catalogo.html">Ver todo</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="sucursales.html">Sucursales</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="demos.html">Demos</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar producto..." aria-label="Buscar">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+                
+                <ul class="navbar-nav ms-3" id="userArea">
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="login.html">Ingresar</a>
+                    </li>
+                </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <section class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h2 class="mb-3">Nuestras Ubicaciones</h2>
+                    <p>Visítanos en cualquiera de nuestros puntos de venta. Contamos con estacionamiento gratuito.</p>
+                    
+                    <div class="table-responsive">
+                        <table class="table table-hover table-striped align-middle">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Sucursal</th>
+                                    <th>Dirección</th>
+                                    <th>Horario</th>
+                                    <th>Contacto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="fw-bold">Centro Histórico</td>
+                                    <td>Av. Madero #123</td>
+                                    <td>9:00 - 20:00</td>
+                                    <td>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">Llamar</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Plaza Norte</td>
+                                    <td>Blvd. Norte #4500</td>
+                                    <td>11:00 - 21:00</td>
+                                    <td>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">Llamar</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="fw-bold">Sur Galerías</td>
+                                    <td>Periférico Sur #890</td>
+                                    <td>10:00 - 21:00</td>
+                                    <td>
+                                        <a href="#" class="btn btn-sm btn-outline-primary">Llamar</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <h2 class="mb-3">Encuéntranos</h2>
+                    <div class="ratio ratio-4x3 shadow rounded overflow-hidden border">
+                        <div class="bg-light d-flex align-items-center justify-content-center text-muted">
+                            <div class="ratio ratio-4x3 shadow rounded overflow-hidden border">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.536768664273!2d-99.133208!3d19.432608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f92b75aa014d%3A0x17d810d20da6e8cf!2sPalacio%20de%20Bellas%20Artes!5e0!3m2!1ses!2smx!4v1648000000000!5m2!1ses!2smx" 
+                                    style="border:0;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-4 mt-auto">
+        <div class="container text-center text-md-start">
+            <div class="row text-center text-md-start">
+                
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">🏢 Mi Gran Tienda</h5>
+                    <p>Tu mejor opción en tecnología, moda y hogar. Calidad y precio en un solo lugar.</p>
+                </div>
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Enlaces</h5>
+                    <p><a href="index.html" class="text-white text-decoration-none">Inicio</a></p>
+                    <p><a href="catalogo.html" class="text-white text-decoration-none">Catálogo</a></p>
+                    <p><a href="sucursales.html" class="text-white text-decoration-none">Sucursales</a></p>
+                    <p><a href="solicitud-credito.html" class="text-white text-decoration-none">Crédito</a></p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Ayuda</h5>
+                    <p>
+                        <a href="mi-cuenta.html" class="text-white text-decoration-none">Mi Cuenta</a>
+                    </p>
+                    <p>
+                        <a href="faq.html" class="text-white text-decoration-none">Preguntas Frecuentes</a>
+                    </p>
+                    <p>
+                        <a href="accesibilidad.html" class="text-white text-decoration-none">Accesibilidad ♿</a>
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contacto</h5>
+                    <p>📍 Av. Reforma #123, CDMX</p>
+                    <p>✉️ contacto@migrantienda.com</p>
+                    <p>📞 +52 55 1234 5678</p>
+                </div>
+                
+            </div>
+
+            <hr class="mb-4">
+
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p>© 2024 <strong>Mi Gran Tienda</strong>. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-end">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item"><a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">📘</a></li>
+                            <li class="list-inline-item"><a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">📸</a></li>
+                            <li class="list-inline-item"><a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;">🐦</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sucursales.js"></script>
+
+</body>
+</html>
